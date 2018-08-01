@@ -1,2 +1,2 @@
 # e-Gonzalez
-Meu primeiro projeto realizado de acordo com a realização do primeiro curso de CSS e HTML.
+Meu primeiro projeto colocando em prática o aprendizado com o meu primeiro curso realizado de CSS / HTML.
