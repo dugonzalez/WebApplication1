@@ -6,9 +6,10 @@
 <!DOCTYPE html>
 
 <html>
+
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>Inicial</title>
+    <title>Fale conosco</title>
     
 </head>
 <body>
@@ -28,7 +29,11 @@
             padding: 10px;
             background-color: rgba(45,45,45,0.1);
         }
-
+        h4 {
+            display: contents;
+           justify-content: flex-start, center;
+            margin-left: 10px;
+        }
         p {
             font-family: 'Times New Roman';
             font-size: 20px;
@@ -39,7 +44,7 @@
             color: darkblue
         }
 
-      
+ 
 
         .logoeg {
             margin-top: 5px;
@@ -47,10 +52,7 @@
             margin-bottom: 5px;
             margin-left: 5px;
         }
-        .voltar{
-            justify-content: flex-end;
-
-        }
+      
 
         body {
             background: url(https://i.imgur.com/MJAkxbh.png);
@@ -58,21 +60,30 @@
 
         footer {
             margin-top: 390px;
-           
+            
             text-align: center
         }
     </style>
     <div>
-        <h1 class="darkblue-text logoeg">e-Gonzalez ™</h1>
+        <h1 class="darkblue-text" logoeg>e-Gonzalez ™</h1>
         <hr>
-
-        <h2 class="darkblue-text">Inicial</h2>
-        <p>Seja bem vindo(a) ao site de desenvolvimento web <u><em>e-Gonzalez</em></u>!</p>
-
+        <h2 class="darkblue-text">Fale conosco</h2>
+      
+        <div class="colunas">
+            <h4>Nome:    <input id="nome" type="text" placeholder="Digite seu nome" required> </h4>
+            
+            
+            <h4>E-mail:     <input id="email" type="email" placeholder="Digite seu e-mail" required> </h4>
+            
+            
+            <h4>Mensagem:    <input id="mensagem" type="text" placeholder="Nos envie uma mensagem." required></h4>
+            
+            
+            <h4><button type="submit">Enviar</button></h4>
         </div>
-    <div class="voltar">
-        <a href="Index">Voltar</a>
+        <a href="Index"> Voltar</a>
     </div>
     <footer>e-Gonzalez © - Todos os direitos reservados</footer>
 </body>
+
 </html>

@@ -25,10 +25,10 @@ namespace WebApplication1.Controllers
         {
             return View();
         }
-        public ActionResult Parceiros()
+        public ActionResult FaleConosco()
         {
             return View();
         }
-
     }
+        
 }

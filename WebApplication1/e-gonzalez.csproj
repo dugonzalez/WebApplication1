@@ -107,7 +107,7 @@
     <Content Include="Views\Home\Servicos.cshtml" />
     <Content Include="Views\Home\Inicial.cshtml" />
     <Content Include="Views\Home\QuemSomos.cshtml" />
-    <Content Include="Views\Home\Parceiros.cshtml" />
+    <Content Include="Views\Home\FaleConosco.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
